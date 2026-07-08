@@ -68,11 +68,8 @@ pkgs.callPackage ./path/to/NovaNUR/pkgs/reasonix-desktop { }
 NovaNUR/
 ├── flake.nix                 # flake 入口
 ├── default.nix               # NUR / 非 flake 兼容入口
-├── flake.nix                 # flake 入口
-├── default.nix               # NUR / 非 flake 兼容入口
 ├── pkgs/
 │   └── reasonix-desktop/
-│       └── default.nix       # 从 GitHub Releases 下载构建
 │       └── default.nix       # 从 GitHub Releases 下载构建
 └── README.md
 ```
